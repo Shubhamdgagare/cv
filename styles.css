@@ -5,6 +5,9 @@ body {
   color: #40514E;
 
 }
+p{
+  line-height: 2;
+}
 
 h1{
   margin-top: 40px;
@@ -28,10 +31,27 @@ h3{
 }
 
 a{
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #11999E;
 }
 
+hr{
+  border : dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+#shubhamimg{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
 
 .top-container {
   background-color: #E4F9F5;
@@ -40,11 +60,13 @@ a{
 }
 
 .middle-container {
-  margin: 100px 0; 
+  margin: 100px 0;
 }
 .bottom-container {
   margin-top: 30px;
   background-color: #66BFBF;
+  height: 150px;
+
 }
 
 .skill-row{
@@ -63,17 +85,27 @@ a{
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.foolink{
+  margin-top: 10px;
+  height: 50px;
+}
+
+.foolink1{
+  height: 30px;
 }
 
 .footer-link{
   color: #11999E;
+  margin-left: 30px;
 }
 
 .com_design{
@@ -90,6 +122,11 @@ a{
   margin-left: 30px;
 }
 
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -100,7 +137,7 @@ a{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -115,4 +152,9 @@ a{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
 }
